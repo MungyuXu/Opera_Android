@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity"
+    >
+    <!-- viewpager 需要指定一下jar包中对应的地址，如下 -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">"
+
+    </android.support.v4.view.ViewPager>
+
+    <!--layout_alignParentBottom 指定该线性布局，相对于父类的底端显示  -->
+    <LinearLayout
+        android:id="@+id/listgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        >
+
+    </LinearLayout>
+</RelativeLayout>

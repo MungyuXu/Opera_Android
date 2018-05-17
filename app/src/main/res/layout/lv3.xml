@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--相关演员信息-->
+    <TextView
+        android:textSize="26dp"
+    android:id="@+id/operaName2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/actorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

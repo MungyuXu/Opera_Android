@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/w3">
+
+    <Button
+        android:id="@+id/comein"
+        android:layout_width="161dp"
+        android:layout_height="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="163dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/hdtb"
+        android:onClick="startbutton"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
